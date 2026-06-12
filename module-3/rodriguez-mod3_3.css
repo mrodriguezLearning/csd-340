@@ -1,0 +1,78 @@
+/* LastName_Mod3_3.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.left-div {
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.right-div {
+    width: 45%;
+    float: right;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-weight: 500;
+    margin-top: 0;
+}
+
+ol, ul {
+    font-weight: 300;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.ordered-box {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+.unordered-box {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.last-div {
+    width: 100%;
+    margin-top: 60%;
+    clear: both;
+}
+
+.last-div a {
+    float: right;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #1e3a8a;
+}
+
+.last-div a:hover {
+    text-decoration: underline;
+}
