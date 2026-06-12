@@ -1,0 +1,31 @@
+/* Name: Marco Rodriguez
+    Assignment: Assignment 3.3
+    Documentation: CSD 340 Landing Page Stylesheet
+*/
+
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4 {
+    background-color: #8dcfb6;
+    color: #ffffff;
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+a {
+    color: #006811;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00b91f;
+}
+
+a:visited {
+    color: #a0eead;
+}
