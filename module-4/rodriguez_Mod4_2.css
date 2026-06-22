@@ -1,0 +1,104 @@
+/* 
+ Name: Marco Rodriguez Gomez 
+ Assignment: Assignment 4.2
+ 6/21/2026
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Set a background image for the page */
+    background: url("./images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+/* add styles for links */
+a {
+    color: #006811;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00b91f;
+}
+
+a:visited {
+    color: #a0eead;
+}
+
+#container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+/* add styles for page title */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    /* Add a semi-transparent background color to the title RGBA */
+    background-color: rgba(141, 207, 182, 0.8);
+    width: auto;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+}
+
+/* add styles for image gallery */
+#image-gallery {
+    margin-top: 10%;
+    /* Use Grid to use three columns */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+/* add styles for gallery items background semi-transparent color and border */
+.gallery-item{
+    border: 1px solid rgb(106, 219, 172);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(141, 207, 182, 0.8);
+}
+.gallery-item h3 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgb(255, 255, 255);
+}
+
+.last-div {
+    width: 100%;
+    margin-top: 5%;
+    display: inline-block;
+}
+/* add styles for the link in the last div looking like a button */
+.last-div a {
+    float: right;
+    margin-bottom: 20px;
+    background-color: #8dcfb6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+/* add hover effect for the link in the last div */
+.last-div a:hover {
+    text-decoration: underline;
+    background-color: #628f7e;
+}
